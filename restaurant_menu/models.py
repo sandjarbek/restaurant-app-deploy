@@ -4,10 +4,11 @@ from django.contrib.auth.models import User
 status = ((0, 'Unavailable'), (1, 'Available'))
 
 MEAL_TYPE = (
-    ('starters','Starters'),
-    ('salads','Salad'),
-    ('maindish', 'Main Dish'),
-    ('desserts', 'Desserts')
+    ('starters','Birinchi ovqat'),
+    ('salads','Salatlar'),
+    ('maindish', 'Ikkinchi ovqat'),
+    ('desserts', 'Somsa va pishiriqlar'),
+    ('ichimliklar', 'Ichimliklar')
 )
 
 class Item(models.Model):
